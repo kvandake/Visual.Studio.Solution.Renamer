@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <AssemblyName>Visual.Studio.Solution.Renamer.Library</AssemblyName>
     <RootNamespace>Visual.Studio.Solution.Renamer.Library</RootNamespace>
   </PropertyGroup>

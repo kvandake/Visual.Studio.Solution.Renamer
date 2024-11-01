@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <AssemblyName>vsrenamer</AssemblyName>
     <RootNamespace>Visual.Studio.Solution.Renamer.CommandLine</RootNamespace>
   </PropertyGroup>
@@ -34,5 +34,8 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Visual.Studio.Solution.Renamer.Library\Visual.Studio.Solution.Renamer.Library.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="nupkg\" />
   </ItemGroup>
 </Project>

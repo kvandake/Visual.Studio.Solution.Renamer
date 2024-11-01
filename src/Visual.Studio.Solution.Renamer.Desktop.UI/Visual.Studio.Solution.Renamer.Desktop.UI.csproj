@@ -1,7 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
     <AssemblyName>vsrenamer_gui</AssemblyName>
     <RootNamespace>Visual.Studio.Solution.Renamer.Desktop.UI</RootNamespace>
@@ -10,7 +10,7 @@
   </PropertyGroup>
   <!-- Dotnet Tool Specific settings -->
   <PropertyGroup>
-    <PackAsTool>true</PackAsTool>
+    <PackAsTool>false</PackAsTool>
     <PackageId>vsrenamer_gui</PackageId>
     <Title>Visual.Studio.Solution.Renamer.GUI</Title>
     <ToolCommandName>vsrenamer_gui</ToolCommandName>
